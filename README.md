@@ -24,5 +24,5 @@ npm run start:dev
 ## Para crear la imagen de Docker para Prod
 
 ```bash
-docker build -f Dockerfile.prod -t client-gateway .  
+docker build -f dockerfile.prod -t client-gateway .  
 ```
