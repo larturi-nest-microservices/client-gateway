@@ -16,7 +16,13 @@ docker run -d --name nats-main -p 4222:4222 -p 6222:6222 -p 8222:8222 nats
 ```bash
 nvm use 20.12.2
 
-pnpm install
+npm install
 
-pnpm run start:dev
+npm run start:dev
+```
+
+## Para crear la imagen de Docker para Prod
+
+```bash
+docker build -f dockerfile.prod -t client-gateway .  
 ```
